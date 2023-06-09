@@ -1,4 +1,4 @@
-```local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("North Nation discord.gg/northnation", "GrapeTheme")
 
 local Tab = Window:NewTab("Scripts")
@@ -46,4 +46,3 @@ local Tab = Window:NewTab("KeyforSkreeded")
 local Section = Tab:NewSection("KeyforSkreeded")
 
 Section:NewLabel("FinallyChanged")
-```
