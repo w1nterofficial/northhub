@@ -28,7 +28,7 @@ Settings = {
 -- end
 
 -- UI
-local Window = Elerium:AddWindow("Project slayer", {
+local Window = Elerium:AddWindow("North Nation", {
     main_color = Color3.fromRGB(41, 74, 122),
     min_size = Vector2.new(350, 200),
     toggle_key = Enum.KeyCode.Delete,
