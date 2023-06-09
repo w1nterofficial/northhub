@@ -1,5 +1,5 @@
 local Config = {
-    WindowName = "V.G Hub",
+    WindowName = "North Hub",
     Color = Color3.fromRGB(255, 128, 64),
     Keybind = Enum.KeyCode.RightControl
 }
@@ -51,7 +51,7 @@ local Name = "Project Slayers.json"
 
 Des = {}
 if makefolder then
-    makefolder("V.G Hub")
+    makefolder("North Hub")
 end
 
 local Settings
@@ -59,17 +59,17 @@ local Settings
 if
     not pcall(
         function()
-            readfile("V.G Hub//" .. Name)
+            readfile("North Hub//" .. Name)
         end
     )
  then
-    writefile("V.G Hub//" .. Name, HttpService:JSONEncode(Des))
+    writefile("North Hub//" .. Name, HttpService:JSONEncode(Des))
 end
-if readfile("V.G Hub//" .. Name) then
-    Settings = HttpService:JSONDecode(readfile("V.G Hub//" .. Name))
+if readfile("North Hub//" .. Name) then
+    Settings = HttpService:JSONDecode(readfile("North Hub//" .. Name))
 end
 local function Save()
-    writefile("V.G Hub//" .. Name, HttpService:JSONEncode(Settings))
+    writefile("North Hub//" .. Name, HttpService:JSONEncode(Settings))
 end
 local Locations = {}
 for i, v in pairs(Beast) do
@@ -192,7 +192,7 @@ if Settings.Distance == nil then
     Settings.Distance = 7
 end
 
-local Library = loadstring(game:HttpGet("https://github.com/w1nterofficial/northhub/blob/main/projectslayertest"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/w1nterofficial/northhub/main/projectslayertest"))()
 local Window = Library:CreateWindow(Config, game:GetService("CoreGui"))
 
 local Tab1 = Window:CreateTab("Project Slayers")
@@ -595,7 +595,7 @@ UserInputService.JumpRequest:connect(
 )
 end)
 
-local ESP = loadstring(game:HttpGet("https://github.com/w1nterofficial/northhub/blob/main/koolesp"))()
+local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/w1nterofficial/northhub/main/koolesp"))()
 local Toggle1 = Section1:CreateToggle("Enable Esp", Settings.Esp, function(State)
     Settings.Esp = State
     ESP:Toggle(Settings.Esp)
