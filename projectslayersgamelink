@@ -1,1 +1,1 @@
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/w1nterofficial/northhub/main/projectslayer'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/w1nterofficial/northhub/main/projectslayer'))()
