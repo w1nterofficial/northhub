@@ -15,6 +15,10 @@ Section:NewButton("Skeered Hub", "AutoFarm Dungeon OP", function()
     
 end)
 
+Section:NewButton("Versaware Premium Leaked", "Dungeon", function()
+    loadstring(game:HttpGet('https://gist.githubusercontent.com/ogamartv12/7c61669ce5009bded8b64d6389b560ce/raw/710d3f5c0f75879ff9d72d617d86b978b01e6722/VersaceWare.lua', true))()
+    
+end)
 
 
 local Tab = Window:NewTab("Credit")
@@ -23,6 +27,8 @@ local Section = Tab:NewSection("Credit")
 Section:NewLabel("w1nterofficial#9032")
 Section:NewLabel("discord.gg/northnation")
 Section:NewLabel("Skeered Gui made by discord.gg/skeeredhub")
+Section:NewLabel("Versaware Premium Leaked by Hiii#3844 ")
+Section:NewLabel("Versaware by discord.gg/versaware")
 
 local Tab = Window:NewTab("KeyforSkreeded")
 local Section = Tab:NewSection("KeyforSkreeded")
