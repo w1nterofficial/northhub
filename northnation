@@ -10,8 +10,8 @@ Section:NewButton("AntiAFK", "AntiAFK script", function()
 loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/w1nterofficial/northhub/main/antiafkv2")))()
 end)
 
-Section:NewButton("Skeered Hub", "AutoFarm Dungeon OP", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Skeereddo/name/main/krnl', true))()
+Section:NewButton("skeered hub in slayers script discord channel", "AutoFarm Dungeon OP", function()
+    loadstring(game:HttpGet(("")))()
     
 end)
 
