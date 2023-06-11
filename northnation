@@ -11,7 +11,7 @@ loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/w1nterofficial/
 end)
 
 Section:NewButton("Skeered Hub", "AutoFarm Dungeon OP", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Skeereddo/name/main/krnl', true))())
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Skeereddo/name/main/krnl', true))()
     
 end)
 
