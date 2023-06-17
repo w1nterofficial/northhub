@@ -1,7 +1,7 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("North Nation discord.gg/northnation", "GrapeTheme")
+local Window = Library.CreateLib("North Nation discord.gg/northnation", "Serpent")
 
-local Tab = Window:NewTab("Scripts")
+local Tab = Window:NewTab("PS Scripts")
 local Section = Tab:NewSection("Project Slayer")
 
 Section:NewButton("AntiAFK", "AntiAFK script", function()
@@ -10,9 +10,9 @@ Section:NewButton("AntiAFK", "AntiAFK script", function()
 loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/w1nterofficial/northhub/main/antiafkv2")))()
 end)
 
-Section:NewButton("skeered hub in slayers script discord channel", "AutoFarm Dungeon OP", function()
-    loadstring(game:HttpGet(("")))()
-    
+Section:NewButton("North Dungeon", "AutoFarm Dungeon OP", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/w1nterofficial/northtest/main/projectdungeon")))()
+
 end)
 
 Section:NewButton("Versaware Premium Leaked", "Dungeon", function()
@@ -20,17 +20,45 @@ Section:NewButton("Versaware Premium Leaked", "Dungeon", function()
     
 end)
 
+Section:NewButton("Map1, Map2 North", "map1 map2", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/w1nterofficial/northtest/main/pulapizda', true))()
+    
+end)
+
+Section:NewButton("Mugen Train North", "Dungeon", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/w1nterofficial/northtest/main/projectmugen', true))()
+    
+end)
+
+Section:NewButton("Auto-Farm Lily MAP1", "Dungeon", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/DenizAf4can/SomeScripts/main/Project_Slayers_Lily', true))()
+    
+end)
+
+Section:NewButton("Sylveon Hub", "Dungeon", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ogamertv12/SylveonHub/main/NewLoader.lua', true))()
+    
+end)
+
+
+
+local Tab = Window:NewTab("Blox Fruits")
+local Section = Tab:NewSection("Blox Fruits")
+
+Section:NewButton("BloxFruits Script", "Blox Fruits", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/w1nterofficial/northhub/main/pula', true))()
+    
+end)
 
 local Tab = Window:NewTab("Credit")
 local Section = Tab:NewSection("Credit")
 
 Section:NewLabel("w1nterofficial#9032")
 Section:NewLabel("discord.gg/northnation")
-Section:NewLabel("Skeered Gui made by discord.gg/skeeredhub")
 Section:NewLabel("Versaware Premium Leaked by Hiii#3844 ")
 Section:NewLabel("Versaware by discord.gg/versaware")
 
-local Tab = Window:NewTab("KeyforSkreeded")
-local Section = Tab:NewSection("KeyforSkreeded")
+local Tab = Window:NewTab("Discord Server")
+local Section = Tab:NewSection("Discord Server")
 
-Section:NewLabel("FinallyChanged")
+Section:NewLabel("discord.gg/northnation")
